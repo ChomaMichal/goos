@@ -88,10 +88,10 @@
 
         alpha_qwerty {
             bindings = <
-&kp Q            &kp W            &kp E                &kp R              &kp T                                 &kp Y      &kp U               &kp I                &kp O            &kp P
-&hrm LEFT_GUI A  &hrm LEFT_ALT S  &hrm LEFT_CONTROL D  &hrm LEFT_SHIFT F  &kp G                                 &kp H      &hrm RIGHT_SHIFT J  &hrm LEFT_CONTROL K  &hrm LEFT_ALT L  &hrm LEFT_GUI SEMICOLON
-&kp Z            &kp X            &kp C                &kp V              &kp B                                 &kp N      &kp M               &kp COMMA            &kp DOT          &kp SLASH
-                                                       &kp TAB            &lt 3 SPACE  &kp ESCAPE    &kp ENTER  &lt 2 DEL  &kp BSPC
+&kp Q            &kp W            &kp E                &kp R              &kp T                              &kp Y      &kp U               &kp I                &kp O            &kp P
+&hrm LEFT_GUI A  &hrm LEFT_ALT S  &hrm LEFT_CONTROL D  &hrm LEFT_SHIFT F  &kp G                              &kp H      &hrm RIGHT_SHIFT J  &hrm LEFT_CONTROL K  &hrm LEFT_ALT L  &hrm LEFT_GUI SEMICOLON
+&kp Z            &kp X            &kp C                &kp V              &kp B                              &kp N      &kp M               &kp COMMA            &kp DOT          &kp SLASH
+                                                       &kp ESC            &lt 3 SPACE  &kp TAB    &kp ENTER  &lt 2 DEL  &kp BSPC
             >;
         };
 
@@ -100,7 +100,7 @@
 &none                      &kp SINGLE_QUOTE             &kp DOLLAR               &kp AMPERSAND               &kp CARET                    &none        &kp POUND               &kp LEFT_BRACKET                    &kp RIGHT_BRACKET                &none
 &hrm LEFT_GUI EXCLAMATION  &hrm LEFT_ALT DOUBLE_QUOTES  &hrm LEFT_CONTROL MINUS  &hrm LEFT_SHIFT UNDERSCORE  &kp PLUS                     &kp AT_SIGN  &hrm RIGHT_SHIFT ASTRK  &hrm LEFT_CONTROL LEFT_PARENTHESIS  &hrm LEFT_ALT RIGHT_PARENTHESIS  &hrm LEFT_GUI PERCENT
 &none                      &kp GRAVE                    &kp PIPE                 &kp EQUAL                   &kp TILDE                    &none        &kp BACKSLASH           &kp LEFT_BRACE                      &kp RIGHT_BRACE                  &none
-                                                                                 &kp TAB                     &mo 3      &kp ESC    &none  &none        &none
+                                                                                 &kp ESC                     &mo 3      &kp TAB    &none  &none        &none
             >;
 
             label = "symbol_layer";
